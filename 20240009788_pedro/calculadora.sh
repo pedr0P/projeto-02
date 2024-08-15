@@ -3,10 +3,11 @@ echo Insira o primeiro valor:
 read a
 echo Insira o segundo valor:
 read b
-echo add
+echo add, sub
 read c
 
 case $c in
 	add) echo $((a+b)) ;;
+	sub) echo $((a-b)) ;;
 esac
 
